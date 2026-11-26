@@ -1,0 +1,84 @@
+---
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+- company:
+    name: Schneider Electric
+    url: "https://www.se.com/ww/en"
+    location: Barcelona
+    # company overview
+    overview: Schneider Electric is a global energy technology leader, driving efficiency and sustainability
+      by electrifying, automating, and digitalizing industries, businesses, and homes.
+
+  positions:
+  - designation: DevOps Lead
+    start: Sep 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what are your responsibilities at the company
+    responsibilities:
+    - Migrate services from EC2 to Kubernetes
+    - Migrate CI/CD pipelines to Github Enterprise workflows (Github Actions).
+    - Design and develop tools for deploying to Kubernetes (Helm charts)
+    - "Design and maintain mono-repo for Kubernetes to manage: cluster configurations, service catalog, IaC required resources for the services in the catalog, ephemeral environments (PRs), remote dev environments (humans or AI agents), and documentation."
+    - Design and maintain self-hosted Observability framework (Grafana LGTM).
+    - Integrate and customize external Observability framework (Dynatrace)
+    - Create and maintain resources and modules with Terraform (IaC)
+    - Bi-weekly sprint goals regarding DevOps tasks
+
+- company:
+    name: Letgo
+    url: "https://letgo.com"
+    location: Barcelona
+    # company overview
+    overview: Letgo is the fastest growing mobile marketplace to buy and sell locally.
+      Recently named one of Europe's "Hottest Startups"​ by Wired, letgo's recently been featured by The New York Times, The Wall Street Journal, Fast Company, Fortune, Bloomberg, TechCrunch and others.
+
+  positions:
+  - designation: Site Reliability Engineer
+    start: Jun 2019
+    end: Jun 2023
+    # give some points about what are your responsibilities at the company
+    responsibilities:
+    - Migrate services from EC2 to Kubernetes
+    - Design and develop tools for deploying to Kubernetes (Helm charts)
+    - Create and maintain resources and modules with Terraform (IaC)
+    - Create and maintain WAF, configurations and properties with CDN provider
+    - Bi-weekly squad sprint goals regarding DevOps tasks
+    - Oncall rotation
+
+- company:
+    name: Typeform
+    url: "https://typeform.com"
+    location: Barcelona
+    overview: "Founded circa 2012 in Barcelona, Typeform was founded by two designers: David Okuniev and Robert Muñoz.
+      Today, Typeform works on the future of online forms. Powering your brand’s interactions with beautifully designed, professional-looking online forms that people just love. Create forms, surveys, quizzes (and so much more) to grow your audience, improve just about anything, and validate (or invalidate) your best ideas."
+  positions:
+  - designation: Senior DevOps Engineer
+    start: Jan 2019
+    end: Jun 2019
+    responsibilities:
+    - Migration to Kubernetes
+    - Run and monitor operational tasks with Ansible
+    - Create and maintain ansible modules
+
+- company:
+    name: SQLI
+    url: "https://www.sqli.com"
+    location: Esplugues del Llobregat
+    overview: By thinking differently and shaking up habits that are deeply ingrained, a better future can be invented for all. Since 1990, SQLI has helped companies and brands develop their businesses and create tomorrow's digital experiences with an ambition to exceed their customers', employees' and partners' expectations.
+  positions:
+  - designation: Senior System Administrator
+    start: Jun 2018
+    end: Dec 2018
+    responsibilities:
+    - Create and maintain resources and modules with Terraform (IaC)
+    - Create and maintain shared library for Jenkins CI (Groovy)
+    - Interview candidates to build a Digital Transformation team based in Barcelona

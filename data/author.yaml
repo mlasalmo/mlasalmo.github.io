@@ -1,0 +1,15 @@
+---
+name: "Mariano Lasala"
+nickname: "Mariano"
+image: "images/avatar.png"
+greeting: "Hi, I am"
+contactInfo:
+  email: "mariano.lasala@gmail.com"
+summary:
+- I am a Developer
+- I am a Sysadmin
+- I am a DevOps practitioner
+- I am a Software Engineer
+- I am a SRE
+- I am a team player
+- I enjoy new challenges
