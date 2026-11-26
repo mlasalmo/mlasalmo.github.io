@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.23.0/.schema/devbox.schema.json",
+  "env": {
+    "GH_TELEMETRY": "false",
+  },
+  "packages": {
+    "dart-sass": "1.108.2",
+    "hugo": "0.170.0",
+    "python": "3.14",
+    "yamlfmt": "0.21.0",
+  },
+  "shell": {
+    "init_hook": [
+      "[ -n \"$PYTHONPATH\" ] && unset PYTHONPATH",
+      "[ -z \"${GH_TOKEN:-}\" ] && export GH_TOKEN=$(gh auth token)",
+      ". $VENV_DIR/bin/activate",
+      "pip install --upgrade pip >/dev/null",
+      "pip install -r requirements.txt --use-pep517 >/dev/null",
+      "test -f .git/hooks/pre-commit || pre-commit install >/dev/null 2>&1",
+    ],
+    "scripts": {},
+  },
+}

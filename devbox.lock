@@ -1,7 +1,7 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "dart-sass@latest": {
+    "dart-sass@1.108.2": {
       "last_modified": "2026-11-22T18:15:35Z",
       "resolved": "github:NixOS/nixpkgs/619c39f6eac5d1ed6b8f073a9414baf7034b2356#dart-sass",
       "source": "devbox-search",
@@ -90,6 +90,101 @@
             }
           ],
           "store_path": "/nix/store/cdymcksxfzns1imjfv6bp8acgr01z630-hugo-0.170.0"
+        }
+      }
+    },
+    "python@3.14": {
+      "last_modified": "2026-11-22T18:15:35Z",
+      "plugin_version": "0.0.5",
+      "resolved": "github:NixOS/nixpkgs/619c39f6eac5d1ed6b8f073a9414baf7034b2356#python3",
+      "source": "devbox-search",
+      "version": "3.14.10",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3j0hvszcqcb2vwm5dz0xxfb06cx49k86-python3-3.14.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3j0hvszcqcb2vwm5dz0xxfb06cx49k86-python3-3.14.10"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9zyabiswyisqky2gd1d3z1ig5rm7dd94-python3-3.14.10",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/gqzslfifhbr7h8fk8agryj27n2xhq59p-python3-3.14.10-debug"
+            }
+          ],
+          "store_path": "/nix/store/9zyabiswyisqky2gd1d3z1ig5rm7dd94-python3-3.14.10"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bya4ansy58az5133kryqp2cvrxbnz8qy-python3-3.14.10",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/9gm28616byzvask3v2rima0ci54dv5d1-python3-3.14.10-debug"
+            }
+          ],
+          "store_path": "/nix/store/bya4ansy58az5133kryqp2cvrxbnz8qy-python3-3.14.10"
+        }
+      }
+    },
+    "yamlfmt@0.21.0": {
+      "last_modified": "2026-11-22T18:15:35Z",
+      "resolved": "github:NixOS/nixpkgs/619c39f6eac5d1ed6b8f073a9414baf7034b2356#yamlfmt",
+      "source": "devbox-search",
+      "version": "0.21.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p8s50967q03gg5x0ayayynp4an9bm70v-yamlfmt-0.21.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p8s50967q03gg5x0ayayynp4an9bm70v-yamlfmt-0.21.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jl03kgpb2ji10i400spfl50s0kf5b0rj-yamlfmt-0.21.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jl03kgpb2ji10i400spfl50s0kf5b0rj-yamlfmt-0.21.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w4r1x3kj0qr0cb5kqbfs0zywr0klf6b0-yamlfmt-0.21.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w4r1x3kj0qr0cb5kqbfs0zywr0klf6b0-yamlfmt-0.21.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3f8c15hnpncfvka6sv3rbqmws7bn4lam-yamlfmt-0.21.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3f8c15hnpncfvka6sv3rbqmws7bn4lam-yamlfmt-0.21.0"
         }
       }
     }

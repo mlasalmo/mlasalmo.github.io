@@ -1,0 +1,10 @@
+---
+formatter:
+  eof_newline: true
+  force_quote_style: double
+  include_document_start: true
+  indent: 2
+  indentless_arrays: true
+  retain_line_breaks_single: true
+  trim_trailing_whitespace: true
+  type: basic

@@ -14,8 +14,7 @@ experiences:
     url: "https://www.se.com/ww/en"
     location: Barcelona
     # company overview
-    overview: Schneider Electric is a global energy technology leader, driving efficiency and sustainability
-      by electrifying, automating, and digitalizing industries, businesses, and homes.
+    overview: Schneider Electric is a global energy technology leader, driving efficiency and sustainability by electrifying, automating, and digitalizing industries, businesses, and homes.
 
   positions:
   - designation: DevOps Lead
@@ -38,8 +37,7 @@ experiences:
     url: "https://letgo.com"
     location: Barcelona
     # company overview
-    overview: Letgo is the fastest growing mobile marketplace to buy and sell locally.
-      Recently named one of Europe's "Hottest Startups"​ by Wired, letgo's recently been featured by The New York Times, The Wall Street Journal, Fast Company, Fortune, Bloomberg, TechCrunch and others.
+    overview: Letgo is the fastest growing mobile marketplace to buy and sell locally. Recently named one of Europe's "Hottest Startups"​ by Wired, letgo's recently been featured by The New York Times, The Wall Street Journal, Fast Company, Fortune, Bloomberg, TechCrunch and others.
 
   positions:
   - designation: Site Reliability Engineer
@@ -58,8 +56,7 @@ experiences:
     name: Typeform
     url: "https://typeform.com"
     location: Barcelona
-    overview: "Founded circa 2012 in Barcelona, Typeform was founded by two designers: David Okuniev and Robert Muñoz.
-      Today, Typeform works on the future of online forms. Powering your brand’s interactions with beautifully designed, professional-looking online forms that people just love. Create forms, surveys, quizzes (and so much more) to grow your audience, improve just about anything, and validate (or invalidate) your best ideas."
+    overview: "Founded circa 2012 in Barcelona, Typeform was founded by two designers: David Okuniev and Robert Muñoz. Today, Typeform works on the future of online forms. Powering your brand’s interactions with beautifully designed, professional-looking online forms that people just love. Create forms, surveys, quizzes (and so much more) to grow your audience, improve just about anything, and validate (or invalidate) your best ideas."
   positions:
   - designation: Senior DevOps Engineer
     start: Jan 2019

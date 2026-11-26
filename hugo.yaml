@@ -16,9 +16,9 @@ module:
   - source: static/images
     target: assets/images
     files:
-    - 'avatar.png'
-    - 'favicon.png'
-    - 'skills/*'
+    - "avatar.png"
+    - "favicon.png"
+    - "skills/*"
   - source: static/files
     target: static/files
   - source: ./node_modules/flag-icons/flags
